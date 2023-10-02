@@ -7,7 +7,7 @@ import Info from './Info'
 export const Widget = () => {
   return (
     <>
-    
+
       <div className="bg-[#00081A] py-24 sm:py-24">
         <WidgetEvents />
         <div className="mx-auto max-w-2xl lg:text-center">
@@ -18,7 +18,7 @@ export const Widget = () => {
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
           <dl className="grid max-w-xl mb-10 grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-            <div className='pr-10 flex'>
+            <div className='flex'>
               <LiFiWidget
                 config={{
                   variant: 'default',
@@ -32,7 +32,9 @@ export const Widget = () => {
                 integrator="nextjs-example"
               />
             </div>
-            <Chart />
+            <div className='flex'>
+              <Chart />
+            </div>
           </dl>
           <Info />
         </div>
