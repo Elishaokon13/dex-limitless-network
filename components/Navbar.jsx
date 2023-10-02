@@ -24,7 +24,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="https://swap.limitlessnetwork.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flimitlesslogo.fef308fd.png&w=48&q=75" alt="" />
+            <img className="h-18 w-auto" src="https://swap.limitlessnetwork.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flimitlesslogo.fef308fd.png&w=48&q=75" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
