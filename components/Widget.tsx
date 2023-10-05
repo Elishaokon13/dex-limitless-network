@@ -10,16 +10,16 @@ export const Widget = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-[#00081A] py-24 sm:py-4">
+      <div className="bg-[#00081A] py-4 sm:py-4">
         <WidgetEvents />
-        <div className="flex flex-col items-center justify-center h-screen">
-  <div className="mx-auto max-w-2xl text-center">
-    <h2 className="text-3xl font-semibold leading-7 text-[#2196F3]">Limitless Network Dex/Aggregator</h2>
-    <p className="mt-2 text-base font-bold tracking-tight text-white sm:text-base">
-      Get the best prices in DeFi right here with Limitless
-    </p>
-  </div>
-</div>
+        <div className="flex flex-col items-center justify-center">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-3xl font-semibold leading-7 text-[#2196F3]">Limitless Network Dex/Aggregator</h2>
+            <p className="mt-2 text-base font-bold tracking-tight text-white sm:text-base">
+              Get the best prices in DeFi right here with Limitless
+            </p>
+          </div>
+        </div>
 
         <div className="mx-auto mt-16 max-w-2xl sm:mt-10 lg:mt-14 lg:max-w-4xl">
           <dl className="grid max-w-xl mb-10 grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
@@ -39,16 +39,17 @@ export const Widget = () => {
                       },
                     ],
                   },
-                  theme:{
-                  palette: {
-                    primary: { main: '#2196F3' },
-                    secondary: { main: '#F5B5FF' },
+                  theme: {
+                    palette: {
+                      primary: { main: '#2196F3' },
+                      secondary: { main: '#F5B5FF' },
+                    },
                   },
-                },
                   appearance: 'dark',
                   variant: 'default',
                   containerStyle: {
                     color: 'blue',
+                    maxWidth: '10px',
                     borderTop: '10px',
                     border: `1px solid rgb(234, 234, 234)`,
                     borderRadius: '16px',
